@@ -56,3 +56,34 @@
 
 // export default Counter;
 // // Output: according to increse 
+
+
+// useEffect
+
+// useEffect is used for side effects like:
+
+// API calls
+// Timer
+// Updating document title:-
+
+// import React, { useState, useEffect } from "react";
+
+// function Timer() {
+//   const [count, setCount] = useState(0);
+
+//   useEffect(() => {
+//     document.title = `Count ${count}`;
+//   }, [count]);
+
+//   return (
+//     <button onClick={() => setCount(count + 1)}>
+//       Click {count}
+//     </button>
+//   );
+// }
+
+// export default Timer;
+
+
+
+
