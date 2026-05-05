@@ -87,3 +87,31 @@
 
 
 
+// Example:-
+import React, { useState, useEffect } from "react";
+
+function Welcome(props) {
+  return <h2>Hello {props.name}</h2>;
+}
+
+function App() {
+  const [count, setCount] = useState(0);
+
+  useEffect(() => {
+    document.title = `Count ${count}`;
+  }, [count]);
+
+  return (
+    <div>
+      <Welcome name="Student" />
+
+      <h1>{count}</h1>
+
+      <button onClick={() => setCount(count + 1)}>
+        Increase
+      </button>
+    </div>
+  );
+}
+
+export default App;
