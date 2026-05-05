@@ -1,5 +1,6 @@
 // // Props (Properties) are used to pass data from one component to another component.
 // function Welcome(props) {
+// Example:-
 //   return <h1>Hello, {props.name}</h1>;
 // }
 
@@ -16,6 +17,7 @@
 
 // State:-
 // State is used to store data inside a component.
+// Example:-
 // When state changes, the component updates automatically.
 // import React, { Component } from "react";
 
@@ -39,6 +41,7 @@
 // useState
 
 // useState is a React Hook used to create state in functional components.
+// Example:-
 // import React, { useState } from "react";
 
 // function Counter() {
@@ -65,6 +68,7 @@
 // API calls
 // Timer
 // Updating document title:-
+// Example:-
 
 // import React, { useState, useEffect } from "react";
 
