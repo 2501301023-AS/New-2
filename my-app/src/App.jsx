@@ -36,3 +36,23 @@
 
 
 
+// useState
+
+// useState is a React Hook used to create state in functional components.
+// import React, { useState } from "react";
+
+// function Counter() {
+//   const [count, setCount] = useState(0);
+
+//   return (
+//     <>
+//       <h1>{count}</h1>
+//       <button onClick={() => setCount(count + 1)}>
+//         Increase
+//       </button>
+//     </>
+//   );
+// }
+
+// export default Counter;
+// // Output: according to increse 
